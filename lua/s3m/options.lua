@@ -15,6 +15,8 @@ local options = {
     incsearch = true, -- highlight search while still typing
 
     wrap = false, -- dont wrap lines
+
+    termguicolors = true, -- allow more colors to be used
 }
 
 for k, v in pairs(options) do
