@@ -1,7 +1,7 @@
 local options = {
     number = true, -- set line numbers,
     relativenumber = true, -- set line numbers relative from current line
-    cursorline = true, -- add a horizontal line under the cursor from the beginning to the end of the line
+    cursorline = false, -- add a horizontal line under the cursor from the beginning to the end of the line
 
     tabstop = 4, -- set number of spaces a tab uses
     softtabstop = 4, -- convert spaces to tab in insert mode
