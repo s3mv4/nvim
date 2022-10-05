@@ -17,6 +17,10 @@ local options = {
     wrap = false, -- dont wrap lines
 
     termguicolors = true, -- allow more colors to be used
+
+    backup = false, -- dont create a backup file
+    writebackup = false, -- if a file is being edited by another program (or was written to file while editing with another program), it is not allowed to be edited
+
 }
 
 for k, v in pairs(options) do
